@@ -16,6 +16,11 @@ Clonar el repositorio:
 
 Se require un IDE configurado para spring boot, se sugiere descargar Sprint Tools Suite (STS).
 
-En el IDE cargar el proyecto como Exiting Maven Project.
+En el IDE cargar el proyecto 'backend-java' como Exiting Maven Project.
 
 El proyecto ya cuenta con las dependencias de spring boot necesarias listadas en el punto Requerimientos.
+
+Ejecutar como una aplicación de spring boot
+
+Probar con la rura:
+- http://localhost:8080/api/employees
