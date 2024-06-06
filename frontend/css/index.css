@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+}
+
+.message {
+    font-size: 14px;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+}
