@@ -13,18 +13,20 @@ public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+    
+    @Column(name="nombres")
     private String name;
 
-    @Column(name = "last-name")
+    @Column(name = "apellidos")
     private String lastName;
 
-    @Column(name = "age")
+    @Column(name = "edad")
     private Integer age;
 
-    @Column(name = "start-date")
+    @Column(name = "fecha_ingreso")
     private Date startDate;
 
-    @Column(name = "comment")
+    @Column(name = "comentarios")
     private String comment;
 
     @Column(name = "created_at")
