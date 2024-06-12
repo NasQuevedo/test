@@ -21,7 +21,7 @@
             </div>
             <div class="form-group">
                 <label for="">Comentarios</label>
-                <textarea id="comment" type="text" name="comment"></textarea>
+                <textarea id="comment" type="text" name="comment" class="input"></textarea>
             </div>
             <button type="button" id="send-form" onclick="send();">Enviar</button>
             <button type="button" id="clean-form" onclick="clean();">limpiar</button>

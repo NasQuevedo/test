@@ -84,7 +84,7 @@ class Employee extends Db {
                     edad=?,
                     fecha_ingreso=?,
                     comentarios=?,
-                    updated_at=?
+                    updatedAt=?
                 WHERE id = ?"
             );
             $statement->execute($values);
